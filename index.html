@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modelando o Planeta</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="img/3.gif" width="1300" alt="Imagem animada de boas-vindas">
+  </header>
+
+  <div class="intro">
+    <h1>🌿🌍 EI, SEJA BEM-VINDO! 🌍🌿</h1>
+    <h3>Você já imaginou explorar assuntos interessantes e aprender mais sobre Educação Ambiental por meio da Matemática?</h3>
+    <p>Tenho certeza que aqui no "Modelando o Planeta" você irá aprender muito!</p>
+  </div>
+
+  <div class="sections">
+    <div class="activity" onclick="window.location.href='1.html'">
+      <div class="section">
+        <img src="img/Lixo.png" alt="Lixo na Escola">
+      </div>
+      <p class="section-title">Lixo na Escola</p>
+    </div>
+  
+    <div class="activity" onclick="window.location.href='2.html'">
+      <div class="section">
+        <img src="img/Petróleo.png" alt="Problemas com Petróleo">
+      </div>
+      <p class="section-title">Problemas com Petróleo</p>
+    </div>
+  
+    <div class="activity" onclick="window.location.href='3.html'">
+      <div class="section">
+        <img src="img/Desperdício.png" alt="Desperdício de Água">
+      </div>
+      <p class="section-title">Desperdício de Água</p>
+    </div>
+  
+    <div class="activity" onclick="window.location.href='4.html'">
+      <div class="section">
+        <img src="img/Reflorestamento.png" alt="Reflorestamento">
+      </div>
+      <p class="section-title">Reflorestamento</p>
+    </div>
+  </div>  
+
+  <div class="desen">
+    <p>Venha descobrir como nosso site é super legal, onde a matemática encontra assuntos de sustentabilidade por meio de diferentes atividades!</p>
+    <h2>Vamos lá!?</h2>
+  </div>
+
+  <div class="gallery">
+    <h2>Algumas informações sobre Educação Ambiental</h2>
+    <div class="gallery-images">
+      <img src="desenho1.jpg" alt="Desenho de criança">
+      <img src="desenho2.jpg" alt="Desenho de criança">
+      <img src="desenho3.jpg" alt="Desenho de criança">
+      <img src="desenho4.jpg" alt="Desenho de criança">
+    </div>
+  </div>
+
+  <div class="floating-menu">
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <div class="menu-options" id="menuOptions">
+      <a href="1.html" title="Lixo na Escola">🗑️</a>
+      <a href="2.html" title="Petróleo">⛽</a>
+      <a href="3.html" title="Desperdício de Água">💧</a>
+      <a href="4.html" title="Reflorestamento">🌳</a>
+      <a href="index.html" title="Início">🏠</a>
+    </div>
+  </div>  
+
+  <div id="assistant-container">
+    <div id="assistant-bubble">
+      <p id="assistant-text">Oiê! Eu meu nome é Michelle e sou seu guia no site Modelando o Planeta! 🌍</p>
+      <button id="close-assistant">X</button>
+    </div>
+    <img id="assistant-img" src="img/boneco.png" alt="Assistente">
+  </div>  
+  
+  <footer>
+    <p>Contato: modelandooplaneta@email.com | Sobre: Este site foi criado para incentivar a criatividade matemática de crianças do Ensino Fundamental 1.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
